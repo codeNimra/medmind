@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --color-medical-accent: #00d1ff;
+  --color-medical-accent-muted: rgba(0, 209, 255, 0.15);
+  --color-medical-bg: #050505;
+  --color-medical-surface: #0f1115;
+  --color-medical-text-main: #e0e0e0;
+  --color-medical-text-dim: #888888;
+  --color-medical-border: rgba(255, 255, 255, 0.1);
+  --font-serif: "Georgia", serif;
+  --font-sans: "Helvetica Neue", "Arial", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--color-medical-bg)] text-[var(--color-medical-text-main)] font-sans antialiased;
+  }
+}
+
+.medical-grid {
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.visual-section-gradient {
+  background: radial-gradient(circle at center, #1a1e26 0%, #050505 100%);
+}
+
+.glass-panel {
+  @apply bg-[#0f1115]/80 backdrop-blur-md border border-[var(--color-medical-border)] shadow-2xl;
+}
+
+@keyframes pulse-cyan {
+  0%, 100% { opacity: 1; filter: drop-shadow(0 0 10px var(--color-medical-accent)); }
+  50% { opacity: 0.7; filter: drop-shadow(0 0 5px var(--color-medical-accent)); }
+}
+
+.animate-pulse-cyan {
+  animation: pulse-cyan 3s infinite ease-in-out;
+}

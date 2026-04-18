@@ -1,0 +1,6 @@
+{
+  "name": "MedMind",
+  "description": "High-fidelity promotional platform for MedMind, a specialized service converting 2D medical scans into interactive 3D anatomical models for surgical planning and medical education.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
