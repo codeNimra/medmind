@@ -1,8 +1,14 @@
-### MedMind: Dimensionalizing Medical Insights
+# MedMind: Dimensionalizing Medical Insights
 
 MedMind is a high-fidelity surgical intelligence and anatomical visualization platform designed for medical students, residents, and surgical professionals. It bridges the gap between traditional 2D diagnostic imaging (MRI/CT) and 3D spatial reality, providing surgical teams and educators with the depth needed for flawless planning.
 
-![Design Theme: Sophisticated Dark](https://picsum.photos/seed/medmind-hero/1200/600?blur=2)
+## 🧠 The Mental Model
+
+MedMind functions as a volumetric translation layer between static diagnostic data and interactive clinical geometry.
+
+![MedMind Mental Model](./public/mental_model.svg)
+
+---
 
 ## 🚀 Core Value Proposition
 
@@ -38,9 +44,13 @@ We provide personalized demonstrations for medical institutions and surgical dep
 
 <br/>
 
-> **Note:** If the player does not load, you can access the [Feature Walkthrough Video here](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+> **Note:** The video player above is a placeholder. For a full breakdown of the intended video content, including the cinematic storyboard and feature explanation, please see the **[DEMO_SCRIPT.md](./DEMO_SCRIPT.md)**.
 
-*The video demonstrates the 3D volumetric conversion process, real-time collaboration haptic feedback, and AI-grounded diagnostic capabilities.*
+#### What the video explains:
+1.  **AI Reconstruction:** Watch 2D MRI slices synthesize into 3D voxels in real-time.
+2.  **Tactical Markups:** See the surgical team use sub-millimeter annotation tools to plan approach angles.
+3.  **Neural Link (AI):** A demonstration of the Gemini-powered consultant identifying anatomical landmarks.
+4.  **Global Hub:** Multi-user collaboration across different time zones on a single high-fidelity model.
 
 To request a live private demo for your organization, please click the **"Request Demo"** button in the application navigation bar or contact our sales department.
 
