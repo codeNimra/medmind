@@ -31,20 +31,12 @@ MedMind functions as a volumetric translation layer between static diagnostic da
 - **AI:** Google Generative AI (@google/genai) with Search Grounding
 - **Icons:** Lucide React
 
-## 📺 Request a Demo / Video Walkthrough
-
-We provide personalized demonstrations for medical institutions and surgical departments.
-
-### Feature Walkthrough
-
-<!-- Standard YouTube/Vimeo Embed Structure -->
-<div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="MedMind Feature Walkthrough" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
 
 <br/>
 
-> **Note:** The video player above is a placeholder. For a full breakdown of the intended video content, including the cinematic storyboard and feature explanation, please see the **[DEMO_SCRIPT.md](./DEMO_SCRIPT.md)**.
+# live demo
+link: [https://ais-dev-kpzlhimffjosgvbxjsb7kl-831466596400.asia-southeast1.run.app/]
+
 
 #### What the video explains:
 1.  **AI Reconstruction:** Watch 2D MRI slices synthesize into 3D voxels in real-time.
